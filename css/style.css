@@ -225,7 +225,23 @@ aside,
 section {
     overflow: auto;
 }
+aside:focus,
+section:focus {
+    outline: none;
+   
+}
 
+aside::-webkit-scrollbar,
+section::-webkit-scrollbar {
+    width: 12px;
+
+}
+
+aside::-webkit-scrollbar-thumb,
+section::-webkit-scrollbar-thumb {
+    background-color: #888;
+
+}
 /* section's layout rules */
 section {
     /* border: 3px solid #B0C4B1; */
